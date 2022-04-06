@@ -7,7 +7,7 @@ Portifolio de Projetos Front-End.
 ### Front-End
  - HTML
  - CSS
- - JS        <!-- - Significa lista nao ordenada -->
+ - JavaScript    <!-- - Significa lista nao ordenada -->
 
 ### Back-End 
  - PHP  
