@@ -1,14 +1,14 @@
 # Portfólio Do João
 Portifolio de Projetos Front-End.
 
- ## Formação 
+## Formação 
  Curso de programador web .
 
- ### Front-End
+### Front-End
  - HTML
  - CSS
  - JavaScript    <!-- - Significa lista nao ordenada -->
 
- ### Back-End 
+### Back-End 
  - PHP  
  - MySQL
