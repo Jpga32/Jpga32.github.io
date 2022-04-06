@@ -1,2 +1,2 @@
 # Jpga32.github.io
-Portfolio de Projetos Front-End.
+Portifolio de Projetos Front-End.
