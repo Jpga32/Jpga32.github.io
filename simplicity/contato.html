@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - Simplicity</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <div class="limitador">
+            <h1><a href="index.html">Simplicity</a></h1>
+            <nav>
+                <!-- O comportamento desse link será feito via JavaScript -->
+                <h2><a href="">Menu &equiv;</a></h2>
+
+                <ul class="links-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <article class="conteudo limitador">
+            <h2>Contato</h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dolorum, maxime et consequatur architecto
+                perspiciatis impedit ullam. Facilis sapiente magni accusantium consectetur qui omnis, consequatur autem
+                iusto sunt tenetur id!</p>
+
+            <p>Incidunt illum, voluptatem reprehenderit quibusdam minus temporibus rem fugiat odit earum ipsum ratione
+                excepturi quasi fugit suscipit libero, recusandae repellat culpa. Aspernatur natus omnis ad aperiam
+                magnam suscipit, praesentium quasi.</p>
+
+            <form action="" method="post">
+
+
+                <div>
+                    <label for="Nome">Nome:</label>
+                    <input type="text" name="nome" id="Nome" required>
+                </div>
+
+                <div>
+                    <label for="E-Mail">E-Mail:</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+
+                <div>
+                    <label for="data">Data De Nascimento:</label>
+                    <input type="date" name="data" id="data" required>
+
+                </div>
+
+                <div>
+                    <label for="Telefone">Fone:</label>
+                    <input type="tel" name="Telefone" id="telefone" required>
+
+                </div>
+
+                <div>
+                    <label for="Idade">Idade:</label>
+                    <input type="number" name="idade" id="idade" min="18" max="100" required>
+
+                </div>
+
+                <div>
+                    <p>SEXO:</p>
+                    <input type="radio" name="Sexo" id="Masculino">
+                    <label for="Masculino">Masculino</label>
+
+                    <input type="radio" name="Sexo" id="Feminino">
+                    <label for="Feminino">Feminino</label>
+
+                </div>
+                <div>
+                    <p>Interesse:</p>
+                    <input type="checkbox" name="Interesse1" id="Design">
+                    <label for="Design">Design</label>
+
+                    <input type="checkbox" name="Interesse2" id="Marketing">
+                    <label for="Marketing">Marketing</label>
+
+                    <input type="checkbox" name="Interesse3" id="Programaçao">
+                    <label for="Programaçao">Programaçao</label>
+
+
+                </div>
+                <br>
+                <div>
+                    <label for="Assunto">Assunto:</label>
+                    <select name="Assunto" id="Assunto">
+                        <option>Selecione O Assunto</option>
+                        <option>Duvidas</option>
+                        <option>Elogios</option>
+                        <option>reclamaçoes</option>
+                        <option>Outros</option>
+
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="Mensagem">Mensagem:</label> <br>
+                    <textarea cols="40" rows="6"></textarea>
+
+
+                </div>
+
+               
+
+                    <div class="btn">
+                        <button class="enviar" type="submit"> ENVIAR</button>
+
+                        <button class="limpar" type="reset"> LIMPAR</button>
+
+
+                    </div>
+
+
+            </form>
+
+        </article>
+    </main>
+
+    <footer>
+
+        <p>Simplicity é um site fictício desenvolvido educacionalmente
+            <br>Senac Penha - 2022
+        </p>
+    </footer>
+
+</body>
+
+</html>
