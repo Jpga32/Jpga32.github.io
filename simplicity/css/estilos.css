@@ -42,7 +42,7 @@ a { text-decoration: none;}
 
 h1 a {
     background-color: black;
-    color: skyblue;
+    color: white;
     border-radius: 5px;
     padding: 0.3rem 1rem;
 }
@@ -89,7 +89,8 @@ nav h2 a:hover,
 nav h2 a:focus,
 .links-menu a:hover,
 .links-menu a:focus {
-    background-color: lightgreen;
+    background-color: skyblue;
+    border-radius: 10px;
 }
 
 .links-menu {
@@ -106,7 +107,8 @@ nav h2 a:focus,
     color: black;
     font-weight: bold;
 
-   /*  background-color: #fff; */
+
+    background-color: #fff;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -135,7 +137,6 @@ auxìlio de programaçao JavaScript */
    position: absolute;
    right: 0;
    left: 0;
- 
 }
 
 .destaque{
@@ -233,7 +234,7 @@ footer {background-color: rgb(0, 0, 0);
 }
 
 .conteudo {
-    background-color: rgb(212, 206, 206);
+/*     background-color: rgb(212, 206, 206); */
     padding: 0.7rem;
     border-radius: 7px;
     font-family: sans-serif;
