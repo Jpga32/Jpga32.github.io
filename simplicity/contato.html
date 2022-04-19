@@ -132,8 +132,11 @@
                 </div>
                 <br>
                 <div>
-                    <label for="Mensagem">Mensagem:</label> <br>
-                    <textarea cols="40" rows="6"></textarea>
+                    <label for="mensagem">Mensagem:
+                        <span id="maximo"> (restam <b id="caracteres">100</b> caracteres)</span>
+                    </label> <br>
+                    <textarea id="mensagem" name="mensagem" maxlength="100" cols="20" rows="5"></textarea>
+
 
 
                 </div>
@@ -156,7 +159,7 @@
             <br>Senac Penha - 2022
         </p>
     </footer>
-<!-- Temos que fazer referencia  antes para podermos usar uma LIB -->
+    <!-- Temos que fazer referencia  antes para podermos usar uma LIB -->
 
     <script src="js/vanilla-masker.min.js"></script>
 

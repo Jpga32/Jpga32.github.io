@@ -45,3 +45,38 @@ fetch(url)
 
 VMasker(inputCep).maskPattern("99999-999");
 VMasker(inputTelefone).maskPattern("(99) 9999-9999");
+
+
+const spanMaximo = formulario.querySelector("#maximo");
+const bCaracteres = formulario.querySelector("#caracteres");
+ const textMensagem = formulario.querySelector("#mensagem");
+/* const textMensagem = formulario.querySelector("[name=mensagem]"); */
+
+let quantidade = 100;   // Determina o valor maximo de caracteres
+
+// Evento para detectaçao de entrada de dados (Digitação)
+textMensagem.addEventListener("input", function(){
+  console.log(textMensagem.value);
+
+ // Criando o que for digitado   
+let conteudo = textMensagem.value;
+
+// criando uma contagem regressiva
+let contagem = quantidade - conteudo.length;
+
+// Adicionando contagem ao elemento
+bCaracteres.textContent = contagem;
+
+const limite = formulario.querySelector("#maximo")
+
+
+if (contagem == 0) {
+    bCaracteres.style.color = "red";
+    textMensagem.style.boxShadow = "red 0px 0px 10px"
+} else {
+    bCaracteres.style.color = "black";
+    textMensagem.style.boxShadow = "black 5px 5px 10px"
+
+}
+
+});
