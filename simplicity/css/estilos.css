@@ -330,6 +330,16 @@ label, p {font-weight: bold;}
     
 
 }
+#localizar-cep {
+    width: 15%;
+    height: 30px;
+    padding: 0.85px;
+    border-radius: 5px;
+    border: solid 2px;
+    font-family: sans-serif;
+    font-weight: 555;
+    
+}
 
 .limpar { 
     width: 12%;
