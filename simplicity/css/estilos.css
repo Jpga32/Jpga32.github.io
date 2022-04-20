@@ -293,7 +293,7 @@ td:nth-child(2) { text-align: center; font-weight: 600;}
 tr:nth-child(even) { background-color: rgb(117, 117, 236);}
 
 form { 
-    background-color: skyblue;
+    background-color: rgb(200, 213, 218);
     width: 95%;
     margin:auto;
     padding: 1rem;
@@ -382,4 +382,8 @@ produtos,Serviços e contato */
     header .limitador { height: 15vh;}   /* area do cabeçalio  */
     .destaque { height: 85vh;}              /* Area total do Destaque */
 }
-
+#my-form-status {
+    margin-left: 1px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
