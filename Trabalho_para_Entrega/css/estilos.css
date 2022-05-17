@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: skyblue 2px 2px 10px;
+}
+body{
+    background-color: #f0f8ff;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: #59429d;
+    font-weight: bold;
+}
+li {
+    color: black;
+    font-weight: 700;
+}
+footer {
+    text-align: left;
+    margin-top: 350px;
+}
